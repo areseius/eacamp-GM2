@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Recruitment form page</h1>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <form>
+          <label>Name</label>
+          <input type="text" minlength="2" placeholder="Alex" required />
+          <br />
+          <br />
+          <label>Surname</label>
+          <input type="text" minlength="2" placeholder="De Souza" required />
+          <br />
+          <br />
+          <label>Email</label>
+          <input type="email" placeholder="alex1234@gmail.com" required />
+          <br />
+          <br />
+          <label>Password</label>
+          <input type="password" minlength="8" required />
+          <br />
+          <br />
+          <label>Re-enter your password</label>
+          <input type="password" minlength="8" required />
+          <p>Gender</p>
+          <label>Kisi</label>
+          <input type="radio" name="gender" value="man" checked />
+          <label>Qadin</label>
+          <input type="radio" name="gender" value="woman" />
+          <br />
+          <br />
+          <label>Date your birth</label>
+          <input type="date" required />
+          <br />
+          <br />
+          <label>Istediyiniz maas</label>
+          <label><input type="number" placeholder="800" required /> AZN</label>
+          <br />
+          <br />
+          <label>Şəxsi avtomobiliniz var ?</label>
+          <select>
+            <option value="beli">Beli</option>
+            <option value="xeyr">Xeyr</option>
+          </select>
+          <br /><br />
+          <p>Isleme qrafiki (DIQQET: Full-time ucun hamisi secili olmalidir)</p>
+          <label>Seher</label>
+          <input type="checkbox" checked />
+          <br />
+          <label>Gunorta</label>
+          <input type="checkbox" checked />
+          <br />
+          <label>Axsam</label>
+          <input type="checkbox" checked />
+          <br /><br />
+          <label>Elaqe nomresi</label>
+          <select required>
+            <option value="055">055</option>
+            <option value="050">050</option>
+            <option value="050">010</option>
+            <option value="055">051</option>
+            <option value="050">099</option>
+            <option value="055">070</option>
+            <option value="050">077</option>
+          </select>
+          <input
+            type="tel"
+            placeholder="321-23-23"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            required
+          />
+          <br /><br />
+          <label>3x4 Sekil : </label>
+          <input type="file" accept="image/png" required />
+          <br /><br />
+          <label>Mesajiniz :</label>
+          <textarea cols="30" rows="10" placeholder="Yoxdur."></textarea>
+          <br /><br />
+          <input type="reset" value="Formu temizle" />
+          <input type="submit" value="Gonder" />
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
