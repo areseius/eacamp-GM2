@@ -1,0 +1,94 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  width: 80%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #333333;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: all 0.4s;
+}
+
+h1 {
+  font-size: 32px;
+  color: #eee;
+}
+
+.bio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.skills {
+  background-color: #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+li:hover {
+  background-color: #f5f5f5;
+}
+
+/* Hover effects */
+header:hover img {
+  transform: scale(1.1);
+}
+
+h1:hover {
+  color: orange;
+}
